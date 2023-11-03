@@ -13,12 +13,7 @@ public class ProbarPregunta2 {
         System.out.println("Escriba el mensaje");
         p2.setMensaje(teclado.nextLine());
         Math.round(p2.getMensaje().length());
-        for (int i = 0; i < p2.getMensaje().length(); i++) {
-            i++;
-            char c = p2.getMensaje().charAt(i);
-            System.out.println(c);
-
-        }
+p2.setContadordePaquetes(new int[p2.getMensaje().length()/20]);
 
 
 }
